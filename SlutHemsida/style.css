@@ -1,0 +1,10 @@
+header ul{
+    background-color: rgb(153, 142, 142);
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 12vh;
+    
+    
+}
