@@ -1,15 +1,43 @@
-header ul{
-    background-color: rgb(153, 142, 142);
-
-    display: grid;
-
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 12vh;
-    
-    margin: 0;
-    padding: 0;
+body{
+    margin: 0; /* tar bort marginen från hemsidan*/
 }
 
-body{
+
+
+ul{
+
+    display: grid; /* gör så att man kan se griden*/
+
+
+    /* beskriver griden*/
+    grid-template-columns: 20fr 1fr 20fr 1fr 20fr;
+    grid-template-rows: 12vh;
+
+    background-color: gray; /* bakgrundsfärgen fär headern*/
+
+    padding: 0;
     margin: 0;
+    box-shadow: black;
+ }
+
+nav > ul{
+    list-style: none; /* tar bort punkterna från listan*/
+
+}
+
+a > li{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding-top: calc(6vh - 0.5em);
+}
+
+a{
+    text-decoration: none;
+
+    background-color:   rgb(104, 104, 104);
+}
+
+ul > div{
+    background-color: black;
 }
