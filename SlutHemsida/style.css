@@ -1,43 +1,43 @@
 body{
-    margin: 0; /* tar bort marginen från hemsidan*/
+    margin: 0;/*Gör så att det inte är ett gap mellan headern och toppen av sidan*/
+    background-color: #eee;
 }
 
 
 
-ul{
-
-    display: grid; /* gör så att man kan se griden*/
-
-
-    /* beskriver griden*/
-    grid-template-columns: 20fr 1fr 20fr 1fr 20fr;
+nav ul{
+    display: grid; 
+  
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 12vh;
+    grid-gap: 20px;
 
-    background-color: gray; /* bakgrundsfärgen fär headern*/
+    background-color: rgb(0, 0, 0);
 
     padding: 0;
     margin: 0;
-    box-shadow: black;
+
+    box-shadow: 10px 10px 10px 15px rgb(0, 0, 0);
+    
+    list-style: none;
+
+    text-align: center;
+    
  }
 
-nav > ul{
-    list-style: none; /* tar bort punkterna från listan*/
-
+nav li{
+    display: inline-block;
 }
 
-a > li{
-    margin: auto;
-    width: 50%;
-    text-align: center;
-    padding-top: calc(6vh - 0.5em);
-}
 
-a{
+nav a{
+    display: block;
+    block-size: 100%;
     text-decoration: none;
-
     background-color:   rgb(104, 104, 104);
+    
 }
 
-ul > div{
-    background-color: black;
+nav a:hover{
+    background-color: rgb(161, 159, 159);
 }
