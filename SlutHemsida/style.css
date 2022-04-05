@@ -39,7 +39,7 @@ nav a:hover{
 }
 nav p{
     margin: auto;
-    width: 50%;
+    width: auto;
     text-align: center;
     padding-top: calc(6vh - 0.5em);
     color: #eee;
@@ -50,9 +50,21 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 7%;
+    margin: 0;
     background-color: hsl(180, 30%, 30%);
     color: #eee;
     text-align: center;
     font-size: 2em;
 }
+
+footer > p{
+    margin: 10px;
+}
+
+@media screen and (max-width: 1200px){
+    nav ul{
+        box-shadow: 5px 5px 5px 10px rgb(0, 0, 0);
+        grid-gap: 15px;
+    }
+}
+
