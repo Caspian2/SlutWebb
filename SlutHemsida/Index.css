@@ -1,18 +1,16 @@
 /*Gör så att texten börjar lite utanför sidan och så att den inte är inuti box shadown*/
-.MainText{
-    padding-top: 15px;
-    padding-left: 3px;
-}
 
-p{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1em;
-}
 .Bilder{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 5px;
 }
+
+.Bilder img{
+    width: 100%;
+}
+
+
 
 
 
