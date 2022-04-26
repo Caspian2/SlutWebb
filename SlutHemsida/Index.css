@@ -8,6 +8,11 @@ p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 1em;
 }
+.Bilder{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+}
 
 
 
