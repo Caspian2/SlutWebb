@@ -10,3 +10,15 @@ main{
 
 }
 
+table, th, td{ 
+    margin-top: 15px;
+    padding: 3px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even){
+    background-color: rgb(138, 138, 138);
+    color: #eee;
+}
+
