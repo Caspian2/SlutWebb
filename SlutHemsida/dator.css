@@ -1,6 +1,12 @@
-
-
-p{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1em;
+img{
+    width: 80%;
+    margin-left: 10px;
 }
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
+}
+
