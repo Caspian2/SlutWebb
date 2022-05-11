@@ -5,11 +5,14 @@ img{
 
 main{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-
 }
-
+/*Detta gör så att tabellen är i mitten av griden*/
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
   
 table, th, td{ 
     margin-top: 15px;
@@ -20,7 +23,6 @@ table, th, td{
 th, td{
     border: 1px solid black;
 }
-
 
 
 

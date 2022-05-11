@@ -1,11 +1,11 @@
-/*Gör så att texten börjar lite utanför sidan och så att den inte är inuti box shadown*/
 
+/*Gör att bara bilderna har en grid och inte texten*/
 .Bilder{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 5px;
 }
-
+/*Bilder är 100% av gridens storlek*/
 .Bilder img{
     width: 100%;
 }
