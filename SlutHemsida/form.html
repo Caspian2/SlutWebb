@@ -25,30 +25,17 @@
     <main class="mainform">
         <form action="tack.html">
 
-            <input type="text" placeholder="Skriv ditt namn"    >
+
+            <input type="text" placeholder="Skriv ditt namn" required>
+            <label class="required" for="text"></label>
+
             <input type="password" placeholder="Lösenord" required>
+            <label class="required" for="password"></label>
 
             <p>Vilket är ditt favorit spel av dessa?</p>
-<<<<<<< HEAD
-            
-            <input type="radio" id="Mario" name="Spel" value="Mario">
-            <label for="Mario">Super Mario</label>
-
-            <input type="radio" id="Terraria" name="Spel" value="Terraria">
-            <label for="Terraria">Terraria</label>
-
-            <input type="radio" id="FalloutNV" name="Spel" value="FalloutNV">
-            <label for="FalloutNV">FalloutNV</label>
-
-            <input type="radio" id="lol" name="Spel" value="lol">
-            <label for="lol">League of Legends</label>
-
-            <input type="radio" id="HalfLife" name="Spel" value="HalfLife">
-            <label for="HalfLife">HalfLife</label>
-=======
 
             <div> 
-                <input type="radio" id="Mario" name="Spel" value="Mario">
+                <input type="radio" id="Mario" name="Spel" value="Mario"> 
                 <label for="Mario">Super Mario</label>
             </div>
             <div>
@@ -67,11 +54,33 @@
                 <input type="radio" id="HalfLife" name="Spel" value="HalfLife">
                 <label for="HalfLife">HalfLife</label>
             </div>
+
+            <p>Vilka av dessa har du eller har du haft? </p>
+            <div>
+                <input type="checkbox" name="Console" id="GC">
+                <label for="GC">GameCube</label>
+            </div>
+            <div>
+                <input type="checkbox" name="Console" id="Wii">
+                <label for="Wii">Wii</label>
+            </div>  
+            <div>
+                <input type="checkbox" name="Console" id="PS">
+                <label for="PS">Något PlayStation?</label>
+                <textarea name="" id="PS" cols="20" rows="1">Om ja, vilket, vilka?</textarea>
+               
+            </div>
+            <div>
+                <input type="checkbox" name="Console" id="Xbox">
+                <label for="Xbox">Något Xbox?</label>
+                <textarea name="" id="Xbox" cols="20" rows="1">Om ja, vilket, vilka?</textarea>
+               
+            </div>
             <div class="text">
                 <label for="dator">Vad gillar du om datorer?</label>
                 <textarea name="dator" id="dator" cols="30" rows="10"></textarea>
             </div>
->>>>>>> feedf11a0113b9e6da85e263c0010ae6c00c96ff
+
 
             <input type="Submit" value="Lämna in">    
         </form>

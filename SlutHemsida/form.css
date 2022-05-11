@@ -1,23 +1,19 @@
 .mainform{
     margin-top: 35px;
     padding-left: 30px;
-<<<<<<< HEAD
-
-=======
 }
 
 form{
-    display: grid;
    width: 300px;
 }
+
+
 
 .text{
     margin: 10px;
 }
 
-input[required]::after{
-    content: "<- Required";
+.required:after{
+    content: "<--Required";
     color: red;
->>>>>>> feedf11a0113b9e6da85e263c0010ae6c00c96ff
-    
-}
+}   
