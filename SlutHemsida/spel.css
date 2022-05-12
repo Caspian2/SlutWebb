@@ -1,0 +1,23 @@
+section{
+    margin-top: 25px;
+    padding-left: 10px;
+}
+
+.bike{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#img{
+    width: 100%;
+}
+
+.yt{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+iframe[src*="youtube"]{
+    width: 100%;
+}
