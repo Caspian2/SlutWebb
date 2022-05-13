@@ -1,6 +1,8 @@
 section{
     margin-top: 25px;
     padding-left: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .bike{
@@ -20,4 +22,6 @@ section{
 
 iframe[src*="youtube"]{
     width: 100%;
+    height: 300px;
+
 }
