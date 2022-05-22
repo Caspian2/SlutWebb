@@ -1,6 +1,8 @@
 section{
     margin-top: 25px;
     padding-left: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .bike{
@@ -22,4 +24,6 @@ section{
 /*Gör så att alla iframe med namnet youtube i sig får en width på 100%*/
 iframe[src*="youtube"]{
     width: 100%;
+    height: 300px;
+
 }
