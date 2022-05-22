@@ -4,3 +4,9 @@ section{
     padding-left: 10px;
 }
 
+section, p{
+    font-family: 'Grape Nuts', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+
