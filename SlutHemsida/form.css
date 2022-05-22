@@ -1,19 +1,21 @@
+/*Trycker ner heal formuläret lite till*/
 .mainform{
     margin-top: 35px;
     padding-left: 30px;
 }
 
+/*Gör så att formet bara är 300px brett*/
 form{
    width: 300px;
 }
 
 
-
+/*Flyttar ner textareat ifrnå checkboxarna*/
 .text{
     margin-top: 10px;
-
 }
 
+/*De som har klassen får "Required" efter sig*/
 .required:after{
     content: "<--Required";
     color: red;

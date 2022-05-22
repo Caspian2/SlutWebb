@@ -1,8 +1,9 @@
+
 img{
     width: 80%;
     margin-left: 10px;
 }
-
+/*Trespaltslayout*/
 main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -13,7 +14,7 @@ main{
     margin-left: auto;
     margin-right: auto;
   }
-  
+/*Trycker ner tabellen och gör alla borders rundade*/  
 table, th, td{ 
     margin-top: 15px;
     padding: 3px;

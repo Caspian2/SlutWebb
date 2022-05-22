@@ -14,7 +14,7 @@ body{
 }
 
 
-
+/*Gör att alla block ser bra ut och att de läggs jämte varandra, samt en box shadow under*/
 nav ul{
     display: grid; 
   
@@ -32,11 +32,7 @@ nav ul{
     list-style: none;  
  }
 
-nav li{
-    display: inline-block;
-}
-
-
+/*Gör att länken är ett block och att texten inte har något sträck under sig*/
 nav a{
     display: block;
     block-size: 100%;
@@ -47,6 +43,8 @@ nav a{
 nav a:hover{
     background-color: rgb(161, 159, 159);
 }
+
+/*Texten inuti global naven blir i mitten av blocket*/
 nav p{
     margin: auto;
     width: auto;
@@ -55,6 +53,8 @@ nav p{
     color: #eee;
 }
 
+
+/*Gör att footern gör det den ska*/
 footer{
     position: fixed;
     left: 0;
@@ -67,10 +67,13 @@ footer{
     font-size: 2em;
 }
 
+/*Gör att footern inte blir lika stor*/
 footer > p{
     margin: 10px;
-}
+}   
 
+
+/*Om sitt fönster är mindre än 1200px så minskar globalnaven så den inte tar upplika mycket plats.*/
 @media screen and (max-width: 1200px){
     nav ul{
         box-shadow: 5px 5px 5px 10px rgb(0, 0, 0);
