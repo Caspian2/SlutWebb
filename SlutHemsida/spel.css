@@ -10,6 +10,38 @@ section{
     grid-template-columns: 1fr 1fr;
 }
 
+video{
+    width: 320px;
+    height: 240px;
+}
+
+img{
+    width: 320px;
+    height: 240px;
+}
+
+a:link{
+    text-decoration: none;
+    color: rgb(2, 2, 240);
+}
+
+a:visited{
+    color: rgb(136, 42, 224);
+}
+
+a:focus{
+    color: rgb(0, 0, 100);
+}
+
+a:hover{
+    color: rgb(0, 0, 100);
+}
+
+a:active{
+    color: rgb(25, 25, 179);
+}
+
+
 /*Bilden med vr är 100% width*/
 #img{
     width: 100%;

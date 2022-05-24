@@ -8,5 +8,9 @@ section, p{
     font-family: 'Grape Nuts', cursive;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+@font-face {
+    font-family: 'Grape Nuts';
+    src: url(https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap);
+}
+
 

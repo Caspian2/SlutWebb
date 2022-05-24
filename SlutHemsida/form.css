@@ -1,12 +1,12 @@
 /*Trycker ner heal formuläret lite till*/
 .mainform{
     margin-top: 35px;
-    padding-left: 30px;
 }
 
 /*Gör så att formet bara är 300px brett*/
 form{
-   width: 300px;
+   width: 450px;
+   padding-left: 30px;
 }
 
 

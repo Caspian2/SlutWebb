@@ -11,6 +11,7 @@ p{
 body{
     margin: 0;/*Gör så att det inte är ett gap mellan headern och toppen av sidan*/
     background-color: #eee;
+
 }
 
 
@@ -56,11 +57,9 @@ nav p{
 
 /*Gör att footern gör det den ska*/
 footer{
-    position: fixed;
-    left: 0;
+    position: sticky;
     bottom: 0;
-    width: 100%;
-    margin: 0;
+    width: 100%;  
     background-color: hsl(180, 30%, 30%);
     color: #eee;
     text-align: center;

@@ -23,14 +23,14 @@
         </nav>
     </header>
     <main class="mainform">
-        <form action="tack.html">
+        <form action="tack.html" method="POST">
 
-
+            <h1>Formulär</h1>
             
-            <input type="text" placeholder="Skriv ditt namn" required>
+            <input type="text" id="text" placeholder="Skriv ditt namn" required>
             <label class="required" for="text">Namn</label>
 
-            <input type="password" placeholder="Lösenord" required>
+            <input type="password" id="password" placeholder="Lösenord" required>
             <label class="required" for="password">Lösen</label>
 
             <p>Vilket är ditt favorit spel av dessa?</p>
@@ -68,18 +68,21 @@
             <div>
                 <input type="checkbox" name="Console" id="PS">
                 <label for="PS">Något PlayStation?</label>
-                <textarea name="PS" id="PS" cols="20" rows="1">Om ja, vilket, vilka?</textarea>
+                <textarea name="PS" id="ps" cols="20" rows="1"></textarea>
+                <label for="ps">Om ja vilka?</label>
                
             </div>
             <div>
                 <input type="checkbox" name="Console" id="Xbox">
                 <label for="Xbox">Något Xbox?</label>
-                <textarea name="Xbox" id="Xbox" cols="20" rows="1">Om ja, vilket, vilka?</textarea>
-               
+                <textarea name="Xbox" id="xbox"  cols="20" rows="1" ></textarea>
+                <label for="xbox">Om ja vilka?</label>
+                
+
             </div>
             <!--TextArea-->
             <div class="text">
-                <label for="dator">Vad gillar du om datorer?</label>
+                <label for="dator"></label>
                 <textarea name="dator" id="dator" cols="30" rows="10"></textarea>
             </div>
 
