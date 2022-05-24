@@ -11,7 +11,9 @@ p{
 body{
     margin: 0;/*Gör så att det inte är ett gap mellan headern och toppen av sidan*/
     background-color: #eee;
-
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
 }
 
 
