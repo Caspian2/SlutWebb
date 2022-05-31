@@ -23,7 +23,7 @@
         </nav>
     </header>
     <main class="mainform">
-        <form action="tack.html" method="POST">
+        <form action="tack.html" method="POST"> <!--Många divs eftersom det gör så att de läggs under varnadra inte jämte-->
 
             <h1>Formulär</h1>
             
@@ -33,7 +33,9 @@
             <input type="password" id="password" placeholder="Lösenord" required>
             <label class="required" for="password">Lösen</label>
 
-            <p>Vilket är ditt favorit spel av dessa?</p>
+            <fieldset>
+                <legend>Vilket är ditt favorit spel</legend>
+            
 
             <div> 
                 <input type="radio" id="Mario" name="Spel" value="Mario"> 
@@ -56,6 +58,8 @@
                 <label for="HalfLife">HalfLife</label>
             </div>
 
+        </fieldset>
+
             <p>Vilka av dessa har du eller har du haft? </p>
             <div>
                 <input type="checkbox" name="Console" id="GC">
@@ -77,15 +81,23 @@
                 <label for="Xbox">Något Xbox?</label>
                 <textarea name="Xbox" id="xbox"  cols="20" rows="1" ></textarea>
                 <label for="xbox">Om ja vilka?</label>
-                
-
             </div>
+
+            <p>Vad gillar du om spel?</p>
             <!--TextArea-->
             <div class="text">
                 <label for="dator"></label>
                 <textarea name="dator" id="dator" cols="30" rows="10"></textarea>
             </div>
-
+            <div>
+                <label for="varför">Varför gillar du datorer:</label>
+                    <select name="intresse" id="varför">
+                        <option value="">--Välj en--</option>
+                        <option value="Coola">Coola</option>
+                        <option value="Fina">Fina</option>
+                        <option value="Snygga">Snygga</option>
+                    </select>
+            </div>
 
             <input type="Submit" value="Lämna in">    
         </form>

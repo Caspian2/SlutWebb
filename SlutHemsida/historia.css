@@ -13,4 +13,12 @@ section, p{
     src: url(https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap);
 }
 
+img{
+    transform: skew(30deg, 20deg);
+}
 
+
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(255,255,255,1) 35%, rgba(2,0,36,1) 100%);
+}
